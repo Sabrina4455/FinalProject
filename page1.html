@@ -15,31 +15,26 @@
 <p><a href="https://missouri.edu/">Mizzou</a></p>
 <p><img src="https://user-images.githubusercontent.com/89413296/138403489-be616a6a-8a57-49c2-bc36-ad4cf3ad1968.PNG" alt="mizzou"></p>
 <h2 id="fizzbuzz">FizzBuzz</h2>
-<p>Something I learned this year was how to write a <em>FizzBuzz</em> program.</p>
+<p>Something I learned this year was how to work with <em>Python Turtle Graphics</em>.</p>
 <p><strong>Here is the code:</strong></p>
 	    
-<pre>&lt; 
-function fizzbuzz(i) {
-	var display = document.getElementById('display');
-	var displayHTML = "";
-	var i;
-	for (var i = 1; i < 101; i++) {
-		displayHTML += "<&lt;p&gt;>" + i + &lt;</&lt;p&gt;>;
-		if (i % 15 == 0){
-			document.write("<p>" + "fizzbuzz" + "</p>");
-		}
-		else if (i % 3 == 0){
-			document.write("<p>" + "fizz" + "</p>");
-		}
-		else if (i % 5 == 0){
-			document.write("<p>" + "buzz" + "</p>");
-		}
-		else{
-			document.write("<p>" + i + "</p>");
-		}
-	display.innerHTML = displayHTML
-	}
-}</pre>&gt;
+<pre><p>import turtle
+turtle = turtle.Turtle()
+
+turtle.pencolor("pink")
+
+NUM_CIRCLES = 50  
+RADIUS = 125        
+ANGLE = 80           
+ANIMATION_SPEED = 10  
+
+turtle.speed(ANIMATION_SPEED)
+
+for x in range(NUM_CIRCLES):
+    turtle.circle(RADIUS)
+    turtle.right(ANGLE) 
+
+</pre></p>
 
 
 
