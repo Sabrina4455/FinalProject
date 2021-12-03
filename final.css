@@ -28,18 +28,12 @@ pre {
   margin-left: 20px;
 }
 
-
-td {
-  color: mediumVioletRed;
+table, th, td {
+  border: 1px solid black;
   margin-left: 20px;
-  border-color: black;
+  color: mediumVioletRed;
 }
 
-table {
-  color: mediumVioletRed;
-  margin-left: 20px;
-  border-color: black;
-}
 
 #myDiv{
   background-color: lightpink;
