@@ -3,7 +3,7 @@ body {
 }
   
 h1 {
-  color: hotpink;
+  color: deeppink;
   margin-left: 20px;
 }
 
@@ -14,7 +14,7 @@ h2 {
 
 
 #myDiv{
-  background-color: deeppink;
+  background-color: lightpink;
   border-style: dotted;
-  border-color: lightpink;
+  border-color: pink;
 }
