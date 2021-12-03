@@ -18,27 +18,29 @@
 <p>Something I learned this year was how to write a <em>FizzBuzz</em> program.</p>
 <p><strong>Here is the code:</strong></p>
 	    
-<p><pre>function fizzbuzz(i) {
+<pre>&lt; 
+function fizzbuzz(i) {
 	var display = document.getElementById('display');
 	var displayHTML = "";
 	var i;
 	for (var i = 1; i < 101; i++) {
-		displayHTML += &lt;"<p>" + i + "</p>"&gt;;
+		displayHTML += "<p>" + i + "</p>";
 		if (i % 15 == 0){
-			document.write(&lt;"<p>" + "fizzbuzz" + "</p>"&gt;);
+			document.write("<p>" + "fizzbuzz" + "</p>");
 		}
 		else if (i % 3 == 0){
-			document.write(&lt;"<p>" + "fizz" + "</p>"&gt;);
+			document.write("<p>" + "fizz" + "</p>");
 		}
 		else if (i % 5 == 0){
-			document.write(&lt;"<p>" + "buzz" + "</p>"&gt;);
+			document.write("<p>" + "buzz" + "</p>");
 		}
 		else{
-			document.write(&lt;"<p>" + i + "</p>"&gt;);
+			document.write("<p>" + i + "</p>");
 		}
 	display.innerHTML = displayHTML
 	}
-}</p></pre>
+}</pre>&gt;
+
 
 
 </code></pre><p><a href="index.html">Homepage</a> <a href="page1.html">Page 1</a> <a href="page2.html">Page 2</a> <a href="page3.html">Page 3</a> <a href="page4.html">Page 4</a></p>
