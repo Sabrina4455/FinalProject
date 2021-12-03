@@ -18,6 +18,11 @@ p {
   margin-left: 20px;
 }
 
+ul {
+  color: mediumVioletRed;
+  margin-left: 20px;
+}
+
 
 #myDiv{
   background-color: lightpink;
