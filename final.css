@@ -23,6 +23,11 @@ ul {
   margin-left: 20px;
 }
 
+pre {
+  color: black;
+  margin-left: 20px;
+}
+
 
 img.resize {
   max-width:50%;
