@@ -35,6 +35,11 @@ td {
   border-color: black;
 }
 
+table {
+  color: mediumVioletRed;
+  margin-left: 20px;
+  border-color: black;
+}
 
 #myDiv{
   background-color: lightpink;
